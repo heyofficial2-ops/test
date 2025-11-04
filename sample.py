@@ -6,15 +6,15 @@ def subtract(a, b):
     """Subtract the second number from the first."""
     return a - b
 
-# def multiply(a, b):
-#     """Multiply two numbers."""
-#     return a * b
+def multiply(a, b):
+    """Multiply two numbers."""
+    return a * b
 
-# def divide(a, b):
-#     """Divide the first number by the second with a check for division by zero."""
-#     if b == 0:
-#         return "Error: Cannot divide by 0"
-#     return a / b
+def divide(a, b):
+    """Divide the first number by the second with a check for division by zero."""
+    if b == 0:
+        return "Error: Cannot divide by 0"
+    return a / b
 
 def main():
     """Main function to test arithmetic operations."""
@@ -25,8 +25,8 @@ def main():
     # Call the functions and print the results
     print(f"{num1} + {num2} = {add(num1, num2)}")
     print(f"{num1} - {num2} = {subtract(num1, num2)}")
-    # print(f"{num1} * {num2} = {multiply(num1, num2)}")
-    # print(f"{num1} / {num2} = {divide(num1, num2)}")
+    print(f"{num1} * {num2} = {multiply(num1, num2)}")
+    print(f"{num1} / {num2} = {divide(num1, num2)}")
     
     # Test divide by zero
     num2 = 0
