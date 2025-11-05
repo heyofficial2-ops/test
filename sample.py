@@ -1,9 +1,10 @@
-# def add(a, b):
-#     """Add two numbers."""
-#     return a + b
-# def subtract(a, b):
-#     """Subtract the second number from the first."""
-#     return a - b
+def add(a, b):
+    """Add two numbers."""
+    return a + b
+def subtract(a, b):
+    """Subtract the second number from the first."""
+    return a - b
+
 # def multiply(a, b):
 #     """Multiply two numbers."""
 #     return a * b
@@ -19,9 +20,9 @@ def main():
     # Example numbers
     num1 = 10
     num2 = 5
-    # Call the functions and print the results
-    # print(f"{num1} + {num2} = {add(num1, num2)}")
-    # print(f"{num1} - {num2} = {subtract(num1, num2)}")
+    
+    print(f"{num1} + {num2} = {add(num1, num2)}")
+    print(f"{num1} - {num2} = {subtract(num1, num2)}")
     # print(f"{num1} * {num2} = {multiply(num1, num2)}")
     print(f"{num1} / {num2} = {divide(num1, num2)}")
     
