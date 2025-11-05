@@ -28,9 +28,9 @@ def main():
     # print(f"{num1} * {num2} = {multiply(num1, num2)}")
     # print(f"{num1} / {num2} = {divide(num1, num2)}")
     
-    # Test divide by zero
-    num2 = 0
-    print(f"{num1} / {num2} = {divide(num1, num2)}")
+    # # Test divide by zero
+    # num2 = 0
+    # print(f"{num1} / {num2} = {divide(num1, num2)}")
 
 # Call main function to run the program
 if __name__ == "__main__":
