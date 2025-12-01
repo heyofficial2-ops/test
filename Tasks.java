@@ -5,8 +5,8 @@ public class Tasks {
         return new StringBuilder(text).reverse().toString();
     }
     // Function 2: Find the maximum of two numbers
-    public static int max(int a, int b) {
-        return (a > b) ? a : b;
+    //public static int max(int a, int b) {
+      //  return (a > b) ? a : b;
     }
     // Function 3: Calculate the factorial of a number
     public static int factorial(int n) {
@@ -25,11 +25,11 @@ public class Tasks {
         System.out.println("Reversed: " + reverse(text));
 
         // Input for max
-        System.out.print("Enter first number: ");
-        int a = sc.nextInt();
-        System.out.print("Enter second number: ");
-        int b = sc.nextInt();
-        System.out.println("Max: " + max(a, b));
+        //System.out.print("Enter first number: ");
+        //int a = sc.nextInt();
+        //System.out.print("Enter second number: ");
+        //int b = sc.nextInt();
+        //System.out.println("Max: " + max(a, b));
 
         // Input for factorial
         System.out.print("Enter a number to find factorial: ");
