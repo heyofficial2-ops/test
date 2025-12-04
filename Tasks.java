@@ -9,13 +9,13 @@ public class Tasks {
       //  return (a > b) ? a : b;
     }
     // Function 3: Calculate the factorial of a number
-    public static int factorial(int n) {
-        int result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
-        }
-        return result;
-    }
+    //ublic static int factorial(int n) {
+      //  int result = 1;
+        //for (int i = 1; i <= n; i++) {
+          //  result *= i;
+        //}
+        //return result;
+    //}
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -32,9 +32,9 @@ public class Tasks {
         //System.out.println("Max: " + max(a, b));
 
         // Input for factorial
-        System.out.print("Enter a number to find factorial: ");
-        int n = sc.nextInt();
-        System.out.println("Factorial: " + factorial(n));
-        sc.close();
+        //System.out.print("Enter a number to find factorial: ");
+        //int n = sc.nextInt();
+        //System.out.println("Factorial: " + factorial(n));
+        //sc.close();
     }
 }
